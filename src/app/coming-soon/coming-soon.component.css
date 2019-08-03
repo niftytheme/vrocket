@@ -1,0 +1,22 @@
+/* -- BEGIN: Contain -- */
+.contain {
+  min-height: 80vh;
+  padding-top: 60px;
+}
+.contain h2 {
+  color: var(--typeColor);
+  padding: 15px 30px;
+  border: 2px solid var(--typeColor);
+  border-radius: 50px;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.contain a {
+  font-size: 32px;
+  color: var(--typeColor);
+  transition: color .2s ease;
+}
+.contain a:hover {
+  color: var(--mainColor);
+}

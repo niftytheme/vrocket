@@ -1,0 +1,595 @@
+/* -- BEGIN: Header -- */
+header {
+  width: 100%;
+  padding: 160px 0 100px;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(180deg, #0047c6 0, #001d99);
+}
+header img.bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  pointer-events: none;
+}
+/* Text Contain */
+header .t-c h1 {
+  font-size: 64px;
+  line-height: 1.3;
+  font-weight: bold;
+  color: #fff;
+}
+header .t-c p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.8;
+}
+/* Sign-up Form */
+header .sign-up-form form {
+  padding: 32px;
+  margin: 0;
+  border: 1px solid rgba(3, 27, 78, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(3, 27, 78, 0.1);
+  background-color: #fff;
+}
+/* Form Head */
+header .sign-up-form .form-head {
+  margin-bottom: 32px;
+}
+header .sign-up-form .form-head h2 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: #232f3e;
+}
+/* Form Body */
+header .sign-up-form .input-group {
+  margin-bottom: 20px;
+}
+header .sign-up-form .input-group input {
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  font-size: 16px;
+  border: 1px solid #f1f1f1;
+  background: #fff;
+  color: var(--typeColor);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 5px;
+  position: relative;
+}
+header .sign-up-form .input-group input:focus {
+  border-color: #0069ff;
+  outline: none;
+}
+header .sign-up-form .input-group label {
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  padding: 0 5px;
+  cursor: text;
+  pointer-events: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background: #fff;
+  color: rgba(3, 27, 78, 0.7);
+}
+header .sign-up-form .input-group.visited label {
+  top: -7px;
+  font-size: 12px;
+  border-radius: 4px;
+  color: #0069ff;
+}
+header .sign-up-form .input-group button {
+  width: 100%;
+  border: none;
+  height: 48px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  background: #0069ff;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+header .sign-up-form .input-group button:hover {
+  background: #1633ff;
+}
+header .sign-up-form .input-group button:focus {
+  outline: none;
+  box-shadow: none;
+}
+header .sign-up-form .input-group a {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #757575;
+  border: 1px solid #dfe1e5;
+  transition: background 0.3s ease;
+}
+header .sign-up-form .input-group a:hover {
+  background: #eee;
+}
+/* Form Footer */
+header .form-footer {
+  text-align: center;
+  margin-top: 32px;
+}
+header .form-footer p {
+  font-size: 12px;
+  color: rgba(3, 27, 78, 0.7);
+  line-height: 18px;
+  font-weight: 400;
+}
+header .form-footer p a {
+  color: #0069ff;
+  text-decoration: underline !important;
+  transition: color 0.3s ease;
+}
+header .form-footer p a:hover {
+  color: #1633ff;
+}
+/* ------------------------------------------------- */
+
+/* -- BEGIN: Features -- */
+.features .btn-c button {
+  background: transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #535058;
+  color: #535058;
+  cursor: pointer;
+}
+.features .btn-c button:hover {
+  color: #2c2f3e;
+  border-color: #2c2f3e;
+}
+/* ------------------------------------------------- */
+
+/* -- BEGIN: Hosting -- */
+.hosting .host-taps ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #c1c7d0;
+}
+.hosting .host-taps li {
+  position: relative;
+  min-width: 180px;
+  top: 1px;
+  padding: 15px 25px;
+  text-align: center;
+  list-style-type: none;
+  cursor: pointer;
+  border: 1px solid #c1c7d0;
+  border-right: 0;
+  background: #f4f5f7;
+}
+.hosting .host-taps li.active {
+  background: #f9fbfc;
+  border-bottom-color: #f9fbfc;
+}
+.hosting .host-taps li:first-child {
+  border-top-left-radius: 4px;
+}
+.hosting .host-taps li:last-child {
+  border-top-right-radius: 4px;
+  border-right: 1px solid #c1c7d0;
+}
+.hosting .host-taps li img {
+  max-width: 30px;
+}
+.hosting .item-head {
+  margin-top: 40px;
+}
+.hosting .item-head h3 {
+  font-size: 28px;
+  margin-bottom: 16px;
+  color: var(--typeColor);
+}
+.hosting .item-head p {
+  font-size: 18px;
+  color: var(--pColor);
+}
+/* Cards */
+.hosting .cards {
+  margin-top: 74px;
+}
+.hosting .card {
+  border: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border-radius: 0 !important;
+}
+.hosting .card.main-card {
+  background: transparent;  
+}
+.hosting .card.main-card .card-body {
+  border: none !important;
+  padding-right: 0;
+}
+.hosting .card.main-card ul {
+  margin-top: 110px !important;
+  background: #fff;
+  padding: 20px 20px 20px 0;
+  border: 1px solid #C1C7D0;
+  border-right: 0;
+}
+.hosting .card.main-card ul li:last-child {
+  margin-bottom: 0;
+}
+.hosting .card.main-card ul li span {
+  font-weight: normal;
+}
+.hosting .cards .row > div .card-body {
+  position: relative;
+  border: 1px solid #C1C7D0;
+}
+.hosting .cards .row > div .card.recommend .card-head {
+  position: absolute;
+  top: -43px;
+  width: 100%;
+  font-size: 20px;
+  padding: 7px 0;
+  color: #fff;
+  background: var(--mainColor);
+}
+.hosting .cards .row > div .card.l-card .card-body {
+  border-right-width: 0;
+  border-top-left-radius: 2px !important;
+  border-bottom-left-radius: 2px !important;
+}
+.hosting .cards .row > div .card.recommend .card-body{
+  z-index: 2;
+  padding-bottom: 30px !important;
+  border-color: var(--mainColor);
+}
+.hosting .cards .row > div .card.r-card .card-body{
+  border-left-width: 0;
+  border-top-right-radius: 2px !important;
+  border-bottom-right-radius: 2px !important;
+}
+.hosting .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+.hosting .card-price {
+  margin: 0;
+  font-size: 40px;
+}
+.hosting .card-price .period {
+  font-size: 20px;
+}
+.hosting .card hr {
+  margin: 1.5rem 0;
+}
+.hosting .card ul {
+  text-align: left;
+  padding: 0;
+  margin: 0 auto 30px;
+  width: fit-content;
+}
+.hosting .card ul li {
+  font-size: 15px;  
+  list-style-type: none;
+  font-weight: 500;
+  color: #232f3e;
+}
+.hosting .card ul li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.hosting ul li span {  
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-right: 5px;
+  font-weight: bold;
+  color: #232f3e
+
+}
+.hosting .mute {
+  text-decoration: line-through;
+}
+.hosting .card a {
+  text-align: center;
+  min-width: auto;
+  display: block;
+  font-size: 14px;
+  color: #fff;
+}
+.host-item {
+  display: none;
+}
+/* Shared */
+#shared {
+  display: block;
+}
+/* ------------------------------------------------- */
+
+/* -- BEGIN: Compare -- */
+.compare .c-table table {
+  border: none;
+}
+/* H Table */
+.compare .h-table {
+  position: sticky;
+  top: 59px;
+  background: #fff;
+}
+/* Table Head */
+.compare .c-table thead tr th {
+  width: 35%;
+  text-align: left;
+  border: none;
+}
+.compare .c-table .h-table thead tr td {
+  border-top: 1px solid #c1c7d0;
+  border-bottom: 1px solid #c1c7d0;
+}
+.compare .c-table thead tr td:last-child {
+  border-right: 1px solid #c1c7d0;
+}
+.compare .c-table thead tr td {
+  width: 16.25%;
+  font-weight: bold;
+  font-size: 20px;
+  color: #2c2f3e;
+  border: none;
+  border-left: 1px solid #c1c7d0;
+}
+.compare .c-table th,
+.compare .c-table td {
+  padding: 25px;
+  vertical-align: middle;
+  text-align: center;
+  color: #2c2f3e;
+}
+.compare .c-table td i {
+  font-size: 20px;
+  color: #0069ff;
+}
+/* Table Body */
+.compare .p-head {
+  text-align: center;
+  padding: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #2c2f3e;
+  border: 1px solid #c1c7d0;
+  border-bottom: 0;
+}
+.compare .c-table tbody tr th {
+  text-align: left;
+  border-left: none;
+  font-size: 15px;
+  color: #2c2f3e;
+  border-color: #c1c7d0;
+}
+.compare .c-table tbody tr td {
+  border-right: none;
+  font-size: 16px;
+  color: #2c2f3e;
+  border-color: #c1c7d0;
+}
+.compare .c-table tbody tr td:last-child {
+  border-right: 1px solid #c1c7d0;
+}
+.compare .c-table tbody tr td.title {
+  font-size: 18px;
+}
+/* ------------------------------------------------- */
+
+/* -- BEGIN: About Us -- */
+.about-us .t-c h3 {
+  font-size: 35px;
+  font-weight: bold;
+  color: var(--typeColor);
+}
+.about-us .t-c p {
+  max-width: 90%;
+  font-size: 18px;
+  color: var(--pColor);
+}
+.about-us .t-c a {
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  color: #0069ff;
+  transition: color 0.3s ease;
+}
+.about-us .t-c a:hover {
+  color: #1633ff;
+}
+/* Image Contain */
+.about-us .image-c img {
+  max-width: 250px;
+}
+/* ------------------------------------------------- */
+
+/* -- BEGIN: Support Bar -- */
+.support-bar {
+  padding: 30px 0;
+  font-size: 24px;
+  color: #fff;
+  background: #1633ff;
+}
+/* ------------------------------------------------- */
+
+/* -- BEGIN: Media Query -- */
+/* Medium devices (tablets, less than 1200px) */
+@media (max-width: 1199.98px) {
+  /* -- BEGIN: Header -- */
+  header .t-c h1 {
+    font-size: 48px;
+  }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  /* -- BEGIN: Header -- */
+  header img.bg {
+    display: none;
+  }
+  header .t-c {
+    text-align: center;
+  }
+  header .sign-up-form form {
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  /* -- BEGIN: Hosting */
+  .hosting .cards .row > div .card .card-body {
+   border-width: 1px !important;
+  }
+  .hosting .cards .row > div .card.recommend .card-body {
+    padding-bottom: 20px !important;
+  }
+  /* -- BEGIN: Compare */
+  .compare .h-table {
+    top: 59px;
+  }
+  .compare .c-table tbody tr.bg-gray {
+    background: #f9fbfc;
+  }
+  .compare .c-table thead tr td {
+    font-size: 18px;
+    width: 25%;
+  }
+  /* -- BEGIN: About Us -- */
+  .about-us .t-c p {
+    max-width: 100%;
+  }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  /* -- BEGIN: Header -- */
+  header {
+    padding: 110px 0 50px;
+  }
+  header .t-c {
+    text-align: left;
+  }
+  header .t-c h1 {
+    font-size: 52px;
+    line-height: 58px;
+  }
+  /* -- BEGIN: Hosting */
+  .hosting .item-head h3 {
+    font-size: 22px;    
+  }
+  .hosting .item-head p {
+    font-size: 16px;
+  }
+  .hosting .host-taps li {
+    padding: 15px;
+    min-width: 110px;
+  }
+  .hosting .host-taps li img {
+    display: none;
+  }  
+  .hosting .cards .card {
+    width: 350px;
+    margin: 0 auto;
+  }
+  .hosting .cards {
+    margin-top: 30px;
+  }
+  .hosting .cards .row > div .card.l-card {
+    margin-bottom: 44px;
+  }
+  /* -- BEGIN: Compare */
+  .compare .h-table {
+    position: relative;
+    top: 0;
+  }
+  .compare .c-table .h-table thead tr td {
+    width: 131px !important;
+    min-width: 131px !important;
+    padding: 20px 0;
+  }
+  .compare .c-table td {
+    width: 131px !important;
+    min-width: 131px !important;
+    padding: 20px 0;
+  }
+  /* -- BEGIN: Support Bar -- */
+  .support-bar {
+    font-size: 18px;
+  }
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* -- BEGIN: Header -- */
+  header {
+    padding: 120px 0 60px;
+  }
+  header .t-c h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  header .sign-up-form .form-head {
+    margin-bottom: 25px;
+  }
+  header .sign-up-form .form-head h2 {
+    font-size: 18px;
+  }
+  header .sign-up-form .input-group {
+    margin-bottom: 12px;
+  }
+  header .sign-up-form .input-group input {
+    height: 44px;
+  }
+  header .sign-up-form .input-group label {
+    top: 11px;
+    font-size: 14px;
+  }
+  header .sign-up-form .input-group button,
+  header .sign-up-form .input-group a {
+    height: 44px;
+    font-size: 14px;
+  }
+  header .sign-up-form .input-group a svg {
+    height: 15px;
+    width: 15px;
+  }
+  header .form-footer {
+    margin-top: 25px;
+  }
+  /* -- BEGIN: Hosting */
+  .hosting .host-taps li {
+    min-width: auto !important;
+  }
+  .hosting .cards .card {
+    width: 320px;
+  }
+  /* -- BEGIN: Compare -- */
+  .compare .c-table .h-table thead tr td,
+  .compare .c-table tbody tr td {
+    padding: 15px 0;
+  }
+  /* -- BEGIN: About Us -- */
+  .about-us .t-c h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .about-us .t-c p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

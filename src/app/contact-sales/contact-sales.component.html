@@ -1,0 +1,72 @@
+<!-- BEGIN: Main Contain -->
+<div class="main-contain">
+
+  <!-- BEGIN: Overlay -->
+  <span class="overlay-span"></span>
+  <span class="overlay-bg"></span>
+
+  <!-- BEGIN: Header -->
+  <header class="text-center">
+    <div class="container">
+      <h1>Contact our sales team</h1>
+      <p class="mb-0 mx-auto">Our team is happy to answer your sales questions. Fill out the form and we’ll be in touch as soon as possible.</p>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- BEGIN: Contact Form Section -->
+  <div class="contact-form-s p-100">
+    <div class="container">
+      <!-- row -->
+      <div class="row justify-content-center">
+        <!-- col -->
+        <div class="col-lg-7 col-md-9">
+          <form action="" id="contact-sales-form">
+            <!-- Input Group -->
+            <div class="input-group">
+              <label for="f-name">Your first name</label>
+              <input type="text" aria-label="f-name" placeholder="Lorem" required>
+            </div>
+            <!-- Input Group -->
+            <div class="input-group">
+              <label for="l-name">Your last name</label>
+              <input type="text" aria-label="l-name" placeholder="Ipusm" required>
+            </div>
+            <!-- Input Group -->
+            <div class="input-group">
+              <label for="email">Your email</label>
+              <input type="email" aria-label="email" placeholder="email@example.com" required>
+            </div>
+            <!-- Input Group -->
+            <div class="input-group">
+              <label for="country">Your country</label>
+              <select class="form-control">
+                <option *ngFor="let country of countries" value="{{country}}">{{country}}</option>                
+              </select>
+            </div>
+            <!-- Input Group -->
+            <div class="input-group">
+              <label for="message">Payment volume</label>
+              <select class="form-conrol" required>
+                <option selected disabled value>Select a monthly amount</option>
+                <option value="l-10000">Less than $10,000</option>
+                <option value="l0-30">$10,000 to $30,000</option>
+                <option value="30-50">$30,000 to $50,000</option>
+              </select>
+            </div>
+            <!-- Input Group -->
+            <div class="input-group">
+              <label for="message">Your message</label>
+              <textarea name="message" placeholder="Message" required></textarea>
+            </div>
+            <!-- Input Group -->
+            <div class="input-group justify-content-end mb-0">
+              <button type="submit" id="contact-sales-form-btn" class="primary-btn">contact sales</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
